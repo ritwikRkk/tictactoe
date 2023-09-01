@@ -1,0 +1,16 @@
+.nav-container{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: slategrey;
+}
+
+@media screen and (max-width: 450px) {
+    .nav-container{
+        font-size: 1.5rem;;
+    }
+}

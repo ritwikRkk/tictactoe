@@ -1,0 +1,17 @@
+.square{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+.square:hover{
+    background-color: #ccc;
+}
+.red{
+    background-color: red;
+}
+.disabled{
+    pointer-events: none;
+}
